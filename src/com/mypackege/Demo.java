@@ -22,30 +22,8 @@ public class Demo {
 			else zero++;
 		}
 		System.out.println(Math.abs(one-zero));
-	/*	StringBuilder sb=new StringBuilder();
-		Scanner scan=new Scanner(System.in);
-		int num=scan.nextInt();
-		scan.nextLine();
-	
-		int index=0;
-		sb.append(scan.nextLine());	
-		for(int i=0;i<num/2;i++)
-		{
-			char ch[]=sb.toString().toCharArray();
-			for(int j=0;j<sb.length()-1;j++)
-			{
-				if((ch[j]=='1'&&ch[j+1]=='0')||(ch[j]=='0'&&ch[j+1]=='1'))
-				{
-					sb.replace(j, j+2, "");
-					index++;
-					break;
-				}
-			}
-		}
-		
-		System.out.println(sb.length());
-		
-	}*/
+	System.out.println("testdemo");
+	System.out.println("aaaaaaaaaaaaa");
 
 }
 }
